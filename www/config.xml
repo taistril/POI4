@@ -2,8 +2,8 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
     xmlns:gap = "http://phonegap.com/ns/1.0"
     id        = "com.phonegap.POI4"
-    versionCode = "220"    
-    version   = "2.2.0">
+    versionCode = "230"    
+    version   = "2.3.0">
 
 <name>POI4</name>
 
@@ -19,8 +19,10 @@ taistril
  
      <!-- Customize your app and platform with the preference element. -->
      <!--
-     <preference name="phonegap-version"           value="3.7.0" />      
+     <preference name="android-targetSdkVersion" value="28" />
      -->
+     <preference name="phonegap-version"           value="9.0.0" />      
+     
      <preference name="orientation"                value="default" />        <!-- all: default means both landscape and portrait are enabled -->
      <preference name="target-device"              value="universal" />      <!-- all: possible values handset, tablet, or universal -->
      <preference name="fullscreen"                 value="true" />           <!-- all: hides the status bar at the top of the screen -->
